@@ -9,7 +9,11 @@ class Verbs {
     }
 
     getRandomIndex(max) {
-      return Math.floor(Math.random() * max);
+        let index = Math.floor(Math.random() * max);
+        if (this.verbs[index].disabled) {
+            return this.getRandomIndex(max);
+        }
+        return index;
     }
 
     public get = ():[Verb] => {
