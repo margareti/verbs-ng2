@@ -12,14 +12,24 @@ export class ChallengeComponent {
   title = 'This is the verb view :)!';
   verbs = [];
   limit = 10;
+  genReplaceIndex() {
+    return Math.floor(Math.random() * 100) % 2;
+  }
+  replaceIndex = this.genReplaceIndex();
+
   game;
   currentIndex;
+
+
+
+  next() {
+    ++ this.currentIndex;
+  }
 
   constructor () {
     let currentGame = Games.getCurrentGame();
     console.log('current game', currentGame)
     if (!currentGame) {
-      // this.game = new Game(this.verbs);
       this.verbs = Verbs.getList(this.limit);
       console.log(this.verbs);
       this.currentIndex = 0;
