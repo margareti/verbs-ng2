@@ -1,13 +1,20 @@
 import { Component } from '@angular/core';
-// import './verbs.json';
-// var verbs = require('./verbs.json');
+
+import Verbs from '../../services/verbs';
+
 @Component({
-  // selector: 'verb',
   templateUrl: './challenge.component.html',
-  // styleUrls: ['./app.component.css']
 })
+
 export class ChallengeComponent {
   title = 'This is the verb view :)!';
-  // console.log(verbs);
+  verbsList = [];
+  limit = 10;
+
+  constructor () {
+
+    this.verbsList = Verbs.getList(10);
+    console.log(this.verbsList);
+  }
 
 }

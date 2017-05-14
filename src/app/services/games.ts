@@ -1,6 +1,6 @@
-import { Verb } from '../interfaces/verb';
+import { Game } from '../interfaces/game';
 
-class Verbs {
+class Games {
 
     private verbs:[Verb];
 
@@ -18,11 +18,7 @@ class Verbs {
 
     public set = (verbs:[Verb]):void => {
         this.verbs = verbs;
-        return this.save();
-    }
-
-    public save = () => {
-        return localStorage.setItem('verbs', JSON.stringify(this.verbs));
+        return localStorage.setItem('verbs', JSON.stringify(verbs));
     }
 
     public getList = (limit) => {
