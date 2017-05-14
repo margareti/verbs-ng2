@@ -8,11 +8,17 @@ class Verbs {
         this.verbs = JSON.parse(localStorage.getItem('verbs'));
     }
 
-    getRandomIndex(max) {
+    getRandomIndex(max, iteration = 0) {
         let index = Math.floor(Math.random() * max);
-        if (this.verbs[index].disabled) {
-            return this.getRandomIndex(max);
+
+        iteration++;
+
+        if (iteration < this.verbs.length && this.verbs[index].disabled) {
+            return this.getRandomIndex(max, iteration);
+        } else {
+            index = -1;
         }
+
         return index;
     }
 

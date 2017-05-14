@@ -12,11 +12,13 @@ export class OptionsComponent implements OnInit {
 
     ngOnInit() {
         this.verbs = Verbs.get();
-        console.log('this.verbs:', this.verbs);
+    }
+
+    getDisabledVerbsCount() {
+        return Verbs.get().filter(item => item.disabled).length;
     }
 
     toggleVerb(verb) {
-        verb.disabled = !verb.disabled;
         Verbs.save();
     }
 }
