@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import Games from '../../services/games';
 import Verbs from '../../services/verbs';
 import { Game } from '../../interfaces/game';
+import { Router } from '@angular/router';
 
 @Component({
   templateUrl: './challenge.component.html',
@@ -10,44 +11,58 @@ import { Game } from '../../interfaces/game';
 
 export class ChallengeComponent {
   title = 'This is the verb view :)!';
-  verbs = [];
   limit = 10;
   genReplaceIndex() {
-    return Math.floor(Math.random() * 100) % 2;
+    var tenses = ['past', 'pastParticiple'];
+    return tenses[Math.floor(Math.random() * 100) % 2];
   }
-  replaceIndex = this.genReplaceIndex();
+  hiddenTense = this.genReplaceIndex();
 
-  game;
-  currentIndex;
+  game:Game = {};
   valid;
   userInput;
 
-
   next() {
-    ++ this.currentIndex;
-    this.replaceIndex = this.genReplaceIndex();
-    this.valid = false;
-    this.userInput = '';
+    if (this.game.currentIndex === this.limit - 1) {
+      Games.saveCurrentGameToHistory(this.game);
+      this.router.navigateByUrl('/result');
+    } else {
+      ++ this.game.currentIndex;
+      this.hiddenTense = this.genReplaceIndex();
+      if (this.valid) {
+        ++this.game.score;
+        this.valid = false;
+      }
+      this.userInput = '';
+      console.log(this.game)
+
+      Games.saveCurrentGame(this.game);
+    }
+
   }
 
   onKey(event: any) {
-    console.log( event.target.value );
-    let keys = ['past', 'pastParticiple'];
-    let verbWithPastParticiple = this.verbs[this.currentIndex].tense[keys[this.replaceIndex]];
-
-    console.log(keys[this.replaceIndex])
-    console.log(this.verbs[this.currentIndex].tense[keys[this.replaceIndex]]);
+  
+    let verbWithPastParticiple = this.game.verbs[this.game.currentIndex].tense[this.hiddenTense];
     let trimmedValue = event.target.value.trim();
-    this.valid = (verbWithPastParticiple) ? (trimmedValue === this.verbs[this.currentIndex].tense[keys[this.replaceIndex]])
-     : (trimmedValue === this.verbs[this.currentIndex].tense[keys[0]]);
-    console.log('user input ', this.userInput);
+    this.valid = (verbWithPastParticiple) ? (trimmedValue === this.game.verbs[this.game.currentIndex].tense[this.hiddenTense])
+     : (trimmedValue === this.game.verbs[this.game.currentIndex].tense[0]);
   }
 
-  constructor () {
+
+  constructor (private router: Router) {
+    this.router = router;
     let currentGame = Games.getCurrentGame();
     if (!currentGame) {
-      this.verbs = Verbs.getList(this.limit);
-      this.currentIndex = 0;
+      this.game.verbs = Verbs.getList(this.limit);
+      this.game.currentIndex = 0;
+      this.game.date = new Date();
+
+      this.game.score = 0;
+      Games.saveCurrentGame(this.game);
+    } else {
+      console.log("Game exists");
+      this.game = currentGame;
     }
   }
 
