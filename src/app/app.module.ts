@@ -5,20 +5,23 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home.component';
+import { VerbComponent } from './verb.component';
+import { ResultComponent } from './result.component';
+import { OptionsComponent } from './options.component';
 
 const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
-  // { path: 'hero/:id',      component: HeroDetailComponent },
-
-  // { path: '', component: AppComponent }
+  { path: 'verb', component: VerbComponent },
+  { path: 'result', component: ResultComponent},
+  { path: 'options', component: OptionsComponent}
 ];
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    VerbComponent,
+    ResultComponent,
+    OptionsComponent
   ],
   imports: [
     BrowserModule,
