@@ -1,15 +1,15 @@
 <h2>{{title}}</h2>
 
 
-<p>{{verbs[currentIndex].tense.present}}</p>
+<p>{{game.verbs[game.currentIndex].tense.present}}</p>
 <p>
-  <span *ngIf="replaceIndex !== 0">{{verbs[currentIndex].tense.past}}</span>
-  <span *ngIf="replaceIndex === 0"><input [ngStyle]="{'box-shadow': valid ? '0 0  2px 4px cornflowerblue' : ''}" (keyup)="onKey($event)" [(ngModel)]="userInput"></span>
+  <span *ngIf="hiddenTense !== 'past'">{{game.verbs[game.currentIndex].tense.past}}</span>
+  <span *ngIf="hiddenTense === 'past'"><input [ngStyle]="{'box-shadow': valid ? '0 0  2px 4px cornflowerblue' : ''}" (keyup)="onKey($event)" [(ngModel)]="userInput"></span>
 </p>
 <p>
-  <span *ngIf="replaceIndex !== 1">{{verbs[currentIndex].tense.pastParticiple ? verbs[currentIndex].tense.pastParticiple : verbs[currentIndex].tense.past}}</span>
-  <span *ngIf="replaceIndex === 1"><input [ngStyle]="{'box-shadow': valid ? '0 0  2px 4px cornflowerblue' : ''}" (keyup)="onKey($event)" [(ngModel)]="userInput"></span>
+  <span *ngIf="hiddenTense !== 'pastParticiple'">{{game.verbs[game.currentIndex].tense.pastParticiple ? game.verbs[game.currentIndex].tense.pastParticiple : game.verbs[game.currentIndex].tense.past}}</span>
+  <span *ngIf="hiddenTense === 'pastParticiple'"><input [ngStyle]="{'box-shadow': valid ? '0 0  2px 4px cornflowerblue' : ''}" (keyup)="onKey($event)" [(ngModel)]="userInput"></span>
 </p>
 
-<button (click)="next()" *ngIf="currentIndex < limit - 1">Next</button>
-<button routerLink="/result" *ngIf="currentIndex === limit - 1">Results</button>
+<button (click)="next()" >Next</button>
+<!-- <button (click)="finishGame()" *ngIf="game.currentIndex === limit - 1">Results</button> -->
