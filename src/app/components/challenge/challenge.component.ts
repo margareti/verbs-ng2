@@ -46,7 +46,7 @@ export class ChallengeComponent {
     let verbWithPastParticiple = this.game.verbs[this.game.currentIndex].tense[this.hiddenTense];
     let trimmedValue = event.target.value.trim();
     this.valid = (verbWithPastParticiple) ? (trimmedValue === this.game.verbs[this.game.currentIndex].tense[this.hiddenTense])
-     : (trimmedValue === this.game.verbs[this.game.currentIndex].tense[0]);
+     : (trimmedValue === this.game.verbs[this.game.currentIndex].tense['past']);
   }
 
 
