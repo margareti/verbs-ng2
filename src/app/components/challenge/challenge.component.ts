@@ -17,10 +17,8 @@ export class ChallengeComponent {
   }
   replaceIndex = this.genReplaceIndex();
 
-
   game;
   currentIndex;
-
 
 
   next() {
@@ -28,18 +26,16 @@ export class ChallengeComponent {
     this.replaceIndex = this.genReplaceIndex();
   }
 
+  onKey(event: any) {
+    console.log( event.target.value );
+  }
+
   constructor () {
-    console.log("replace index", this.replaceIndex)
     let currentGame = Games.getCurrentGame();
-    console.log('current game', currentGame)
     if (!currentGame) {
       this.verbs = Verbs.getList(this.limit);
-      console.log(this.verbs);
       this.currentIndex = 0;
-
     }
-
-
   }
 
 }

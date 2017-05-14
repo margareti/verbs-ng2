@@ -1,18 +1,14 @@
 <h2>{{title}}</h2>
 
-<!-- <ul *ngFor='let verb of verbs[currentIndex]'>
-  <li>{{verb.verb}}</li>
-  <li>{{verb.verb}}</li>
-  <li>{{verb.verb}}</li>
-</ul> -->
+
 <p>{{verbs[currentIndex].tense.present}}</p>
 <p>
   <span *ngIf="replaceIndex !== 0">{{verbs[currentIndex].tense.past}}</span>
-  <span *ngIf="replaceIndex === 0"><input></span>
+  <span *ngIf="replaceIndex === 0"><input (keyup)="onKey($event)"></span>
 </p>
 <p>
   <span *ngIf="replaceIndex !== 1">{{verbs[currentIndex].tense.pastParticiple ? verbs[currentIndex].tense.pastParticiple : verbs[currentIndex].tense.past}}</span>
-  <span *ngIf="replaceIndex === 1"><input></span>
+  <span *ngIf="replaceIndex === 1"><input (keyup)="onKey($event)"></span>
 </p>
 
 <button (click)="next()" *ngIf="currentIndex < limit - 1">Next</button>
