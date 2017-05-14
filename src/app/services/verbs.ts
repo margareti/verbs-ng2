@@ -13,9 +13,11 @@ class Verbs {
 
         iteration++;
 
+        console.log('iteration', iteration, this.verbs.length, this.verbs[index].disabled, iteration < this.verbs.length && this.verbs[index].disabled)
         if (iteration < this.verbs.length && this.verbs[index].disabled) {
             return this.getRandomIndex(max, iteration);
-        } else {
+        } else if (iteration >= this.verbs.length) {
+            console.log('getRandomIndex: RETURN -1');
             index = -1;
         }
 
