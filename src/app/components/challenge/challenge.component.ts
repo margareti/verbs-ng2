@@ -19,15 +19,28 @@ export class ChallengeComponent {
 
   game;
   currentIndex;
+  valid;
+  userInput;
 
 
   next() {
     ++ this.currentIndex;
     this.replaceIndex = this.genReplaceIndex();
+    this.valid = false;
+    this.userInput = '';
   }
 
   onKey(event: any) {
     console.log( event.target.value );
+    let keys = ['past', 'pastParticiple'];
+    let verbWithPastParticiple = this.verbs[this.currentIndex].tense[keys[this.replaceIndex]];
+
+    console.log(keys[this.replaceIndex])
+    console.log(this.verbs[this.currentIndex].tense[keys[this.replaceIndex]]);
+    let trimmedValue = event.target.value.trim();
+    this.valid = (verbWithPastParticiple) ? (trimmedValue === this.verbs[this.currentIndex].tense[keys[this.replaceIndex]])
+     : (trimmedValue === this.verbs[this.currentIndex].tense[keys[0]]);
+    console.log('user input ', this.userInput);
   }
 
   constructor () {
