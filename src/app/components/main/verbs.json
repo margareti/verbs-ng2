@@ -1,819 +1,873 @@
 [{
-    "verb":"be",
-    "past":[
-        "was/were",
-    "been"
-    ],
+    "tens": {
+        "present": "be",
+        "past": "was/were",
+        "pastParticipale": "been"
+    },
     "russian":"быть",
     "level":"1",
      "letter":"B"
 }, {
-    "verb":"become",
-    "past":[
-        "became",
-    "become"
-    ],
+    "tens": {
+        "present": "become",
+        "past": "became",
+        "pastParticipale": "become"
+    },
     "russian":"cтановиться",
     "level":"2",
      "letter":"B, C, D"
 }, {
-    "verb":"begin",
-    "past":[
-        "began",
-    "begun"
-    ],
+    "tens": {
+        "present": "begin",
+        "past": "began",
+        "pastParticipale": "begun"
+    },
     "russian":"начинать",
     "level":"1",
      "letter":"B"
 }, {
-    "verb":"bet",
-    "past":[
-        "bet"
-    ],
+    "tens": {
+        "present": "bet",
+        "past": "bet",
+        "pastParticipale": ""
+    },
     "russian":"делать ставки",
     "level":"4",
     "letter":"B"
 }, {
-    "verb":"bite",
-    "past":[
-        "bit",
-    "bitten"
-    ],
+    "tens": {
+        "present": "bite",
+        "past": "bit",
+        "pastParticipale": "bitten"
+    },
     "russian":"кусаться",
     "level":"3",
      "letter":"B, C"
 }, {
-    "verb":"bleed",
-    "past":[
-        "bled"
-    ],
+    "tens": {
+        "present": "bleed",
+        "past": "bled",
+        "pastParticipale": ""
+    },
     "russian":"кровоточить",
     "level":"4",
     "letter":"B"
 }, {
-    "verb":"blow",
-    "past":[
-        "blew",
-    "blown"
-    ],
+    "tens": {
+        "present": "blow",
+        "past": "blew",
+        "pastParticipale": "blown"
+    },
     "russian":"дуть",
     "level":"4",
      "letter":"B"
 }, {
-    "verb":"break",
-    "past":[
-        "broke",
-    "broken"
-    ],
+    "tens": {
+        "present": "break",
+        "past": "broke",
+        "pastParticipale": "broken"
+    },
     "russian":"ломать",
     "level":"1",
      "letter":"B"
 }, {
-    "verb":"bring",
-    "past":[
-        "brought"
-    ],
+    "tens": {
+        "present": "bring",
+        "past": "brought",
+        "pastParticipale": ""
+    },
     "russian":"приносить",
     "level":"1",
     "letter":"B"
 }, {
-    "verb":"build",
-    "past":[
-        "built"
-    ],
+    "tens": {
+        "present": "build",
+        "past": "built",
+        "pastParticipale": ""
+    },
     "russian":"строить",
     "level":"3",
     "letter":"B, C"
 }, {
-    "verb":"burn",
-    "past":[
-        "burnt"
-    ],
+    "tens": {
+        "present": "burn",
+        "past": "burnt",
+        "pastParticipale": ""
+    },
     "russian":"жечь",
     "level":"4",
     "letter":"B"
 }, {
-    "verb":"buy",
-    "past":[
-        "bought"
-    ],
+    "tens": {
+        "present": "buy",
+        "past": "bought",
+        "pastParticipale": ""
+    },
     "russian":"покупать",
     "level":"1",
     "letter":"B"
 }, {
-    "verb":"can",
-    "past":[
-        "could"
-    ],
+    "tens": {
+        "present": "can",
+        "past": "could",
+        "pastParticipale": ""
+    },
     "russian":"быть способным",
     "level":"1",
     "letter":"C"
 }, {
-    "verb":"catch",
-    "past":[
-        "caught"
-    ],
+    "tens": {
+        "present": "catch",
+        "past": "caught",
+        "pastParticipale": ""
+    },
     "russian":"ловить",
     "level":"3",
     "letter":"B, C"
 }, {
-    "verb":"choose",
-    "past":[
-        "chose",
-    "chosen"
-    ],
+    "tens": {
+        "present": "choose",
+        "past": "chose",
+        "pastParticipale": "chosen"
+    },
     "russian":"выбирать",
     "level":"1",
      "letter":"C"
 }, {
-    "verb":"come",
-    "past":[
-        "came",
-    "come"
-    ],
+    "tens": {
+        "present": "come",
+        "past": "came",
+        "pastParticipale": "come"
+    },
     "russian":"приходить",
     "level":"1",
      "letter":"C"
 }, {
-    "verb":"cost",
-    "past":[
-        "cost"
-    ],
+    "tens": {
+        "present": "cost",
+        "past": "cost",
+        "pastParticipale": ""
+    },
     "russian":"стоить",
     "level":"2",
     "letter":"B, C, D"
 }, {
-    "verb":"cut",
-    "past":[
-        "cut"
-    ],
+    "tens": {
+        "present": "cut",
+        "past": "cut",
+        "pastParticipale": ""
+    },
     "russian":"ломать",
     "level":"4",
     "letter":"C, D"
 }, {
-    "verb":"deal",
-    "past":[
-        "dealt"
-    ],
+    "tens": {
+        "present": "deal",
+        "past": "dealt",
+        "pastParticipale": ""
+    },
     "russian":"справляться с чем-то",
     "level":"4",
     "letter":"C, D"
 }, {
-    "verb":"do",
-    "past":[
-        "did",
-    "done"
-    ],
+    "tens": {
+        "present": "do",
+        "past": "did",
+        "pastParticipale": "done"
+    },
     "russian":"делать",
     "level":"1",
      "letter":"D, E"
 }, {
-    "verb":"draw",
-    "past":[
-        "drew",
-    "drawn"
-    ],
+    "tens": {
+        "present": "draw",
+        "past": "drew",
+        "pastParticipale": "drawn"
+    },
     "russian":"рисовать",
     "level":"4",
      "letter":"C, D"
 }, {
-    "verb":"dream",
-    "past":[
-        "dreamt",
-    "dreamt"
-    ],
+    "tens": {
+        "present": "dream",
+        "past": "dreamt",
+        "pastParticipale": "dreamt"
+    },
     "russian":"мечтать",
     "level":"4",
      "letter":"C, D"
 }, {
-    "verb":"drink",
-    "past":[
-        "drank",
-    "drunk"
-    ],
+    "tens": {
+        "present": "drink",
+        "past": "drank",
+        "pastParticipale": "drunk"
+    },
     "russian":"пить",
     "level":"1",
      "letter":"D, E"
 }, {
-    "verb":"drive",
-    "past":[
-        "drove",
-    "driven"
-    ],
+    "tens": {
+        "present": "drive",
+        "past": "drove",
+        "pastParticipale": "driven"
+    },
     "russian":"водить машину",
     "level":"2",
      "letter":"B, C, D"
 }, {
-    "verb":"eat",
-    "past":[
-        "ate",
-    "eaten"
-    ],
+    "tens": {
+        "present": "eat",
+        "past": "ate",
+        "pastParticipale": "eaten"
+    },
     "russian":"есть",
     "level":"1",
      "letter":"D, E"
 }, {
-    "verb":"fall",
-    "past":[
-        "fell",
-    "fallen"
-    ],
+    "tens": {
+        "present": "fall",
+        "past": "fell",
+        "pastParticipale": "fallen"
+    },
     "russian":"падать",
     "level":"1",
      "letter":"F, G, H"
 }, {
-    "verb":"feel",
-    "past":[
-        "felt"
-    ],
+    "tens": {
+        "present": "feel",
+        "past": "felt",
+        "pastParticipale": ""
+    },
     "russian":"чувствовать",
     "level":"2",
     "letter":"F, G"
 }, {
-    "verb":"fight",
-    "past":[
-        "fought"
-    ],
+    "tens": {
+        "present": "fight",
+        "past": "fought",
+        "pastParticipale": ""
+    },
     "russian":"бороться",
     "level":"3",
     "letter":"F"
 }, {
-    "verb":"find",
-    "past":[
-        "found"
-    ],
+    "tens": {
+        "present": "find",
+        "past": "found",
+        "pastParticipale": ""
+    },
     "russian":"находить",
     "level":"1",
     "letter":"F, G, H"
 }, {
-    "verb":"fly",
-    "past":[
-        "flew",
-    "flown"
-    ],
+    "tens": {
+        "present": "fly",
+        "past": "flew",
+        "pastParticipale": "flown"
+    },
     "russian":"летать",
     "level":"3",
      "letter":"F"
 }, {
-    "verb":"forget",
-    "past":[
-        "forgot",
-    "forgotten"
-    ],
+    "tens": {
+        "present": "forget",
+        "past": "forgot",
+        "pastParticipale": "forgotten"
+    },
     "russian":"забывать",
     "level":"2",
      "letter":"F, G"
 }, {
-    "verb":"forgive",
-    "past":[
-        "forgave",
-    "forgiven"
-    ],
+    "tens": {
+        "present": "forgive",
+        "past": "forgave",
+        "pastParticipale": "forgiven"
+    },
     "russian":"прощать",
     "level":"2",
      "letter":"F, G"
 }, {
-    "verb":"freeze",
-    "past":[
-        "froze",
-    "frozen"
-    ],
+    "tens": {
+        "present": "freeze",
+        "past": "froze",
+        "pastParticipale": "frozen"
+    },
     "russian":"замерзать",
     "level":"3",
      "letter":"F"
 }, {
-    "verb":"get",
-    "past":[
-        "got",
-    "gotten"
-    ],
+    "tens": {
+        "present": "get",
+        "past": "got",
+        "pastParticipale": "gotten"
+    },
     "russian":"получать",
     "level":"1",
      "letter":"F, G, H"
 }, {
-    "verb":"give",
-    "past":[
-        "gave",
-    "given"
-    ],
+    "tens": {
+        "present": "give",
+        "past": "gave",
+        "pastParticipale": "given"
+    },
     "russian":"давать",
     "level":"1",
      "letter":"F, G, H"
 }, {
-    "verb":"go",
-    "past":[
-        "went",
-    "gone"
-    ],
+    "tens": {
+        "present": "go",
+        "past": "went",
+        "pastParticipale": "gone"
+    },
     "russian":"идти/ехать",
     "level":"1",
      "letter":"F, G, H"
 }, {
-    "verb":"grow",
-    "past":[
-        "grew",
-    "grown"
-    ],
+    "tens": {
+        "present": "grow",
+        "past": "grew",
+        "pastParticipale": "grown"
+    },
     "russian":"расти",
     "level":"2",
      "letter":"F, G"
 }, {
-    "verb":"hang",
-    "past":[
-        "hung"
-    ],
+    "tens": {
+        "present": "hang",
+        "past": "hung",
+        "pastParticipale": ""
+    },
     "russian":"висеть",
     "level":"3",
     "letter":"H"
 }, {
-    "verb":"have",
-    "past":[
-        "had"
-    ],
+    "tens": {
+        "present": "have",
+        "past": "had",
+        "pastParticipale": ""
+    },
     "russian":"иметь",
     "level":"1",
     "letter":"F, G, H"
 }, {
-    "verb":"hear",
-    "past":[
-        "heard"
-    ],
+    "tens": {
+        "present": "hear",
+        "past": "heard",
+        "pastParticipale": ""
+    },
     "russian":"слышать",
     "level":"1",
     "letter":"F, G, H"
 }, {
-    "verb":"hide",
-    "past":[
-        "hid",
-    "hidden"
-    ],
+    "tens": {
+        "present": "hide",
+        "past": "hid",
+        "pastParticipale": "hidden"
+    },
     "russian":"прятать",
     "level":"3",
      "letter":"H"
 }, {
-    "verb":"hit",
-    "past":[
-        "hit"
-    ],
+    "tens": {
+        "present": "hit",
+        "past": "hit",
+        "pastParticipale": ""
+    },
     "russian":"ударять",
     "level":"3",
     "letter":"H"
 }, {
-    "verb":"hold",
-    "past":[
-        "held"
-    ],
+    "tens": {
+        "present": "hold",
+        "past": "held",
+        "pastParticipale": ""
+    },
     "russian":"держать",
     "level":"4",
     "letter":"H, L, R"
 }, {
-    "verb":"hurt",
-    "past":[
-        "hurt"
-    ],
+    "tens": {
+        "present": "hurt",
+        "past": "hurt",
+        "pastParticipale": ""
+    },
     "russian":"обижать",
     "level":"3",
     "letter":"H"
 }, {
-    "verb":"keep",
-    "past":[
-        "kept"
-    ],
+    "tens": {
+        "present": "keep",
+        "past": "kept",
+        "pastParticipale": ""
+    },
     "russian":"хранить",
     "level":"2",
     "letter":"K, L, M"
 }, {
-    "verb":"know",
-    "past":[
-        "knew",
-    "known"
-    ],
+    "tens": {
+        "present": "know",
+        "past": "knew",
+        "pastParticipale": "known"
+    },
     "russian":"знать",
     "level":"1",
      "letter":"K, L, M"
 }, {
-    "verb":"lay",
-    "past":[
-        "laid"
-    ],
+    "tens": {
+        "present": "lay",
+        "past": "laid",
+        "pastParticipale": ""
+    },
     "russian":"лежать",
     "level":"4",
     "letter":"H, L, R"
 }, {
-    "verb":"lead",
-    "past":[
-        "led"
-    ],
+    "tens": {
+        "present": "lead",
+        "past": "led",
+        "pastParticipale": ""
+    },
     "russian":"вести за собой",
     "level":"3",
     "letter":"L, R"
 }, {
-    "verb":"leave",
-    "past":[
-        "left"
-    ],
+    "tens": {
+        "present": "leave",
+        "past": "left",
+        "pastParticipale": ""
+    },
     "russian":"оставлять/покидать",
     "level":"2",
     "letter":"K, L, M"
 }, {
-    "verb":"lend",
-    "past":[
-        "lent"
-    ],
+    "tens": {
+        "present": "lend",
+        "past": "lent",
+        "pastParticipale": ""
+    },
     "russian":"давать взаймы",
     "level":"4",
     "letter":"H, L, R"
 }, {
-    "verb":"let",
-    "past":[
-        "let"
-    ],
+    "tens": {
+        "present": "let",
+        "past": "let",
+        "pastParticipale": ""
+    },
     "russian":"разрешать",
     "level":"2",
     "letter":"K, L, M"
 }, {
-    "verb":"light",
-    "past":[
-        "lit"
-    ],
+    "tens": {
+        "present": "light",
+        "past": "lit",
+        "pastParticipale": ""
+    },
     "russian":"зажигать",
     "level":"4",
     "letter":"H, L, R"
 }, {
-    "verb":"lose",
-    "past":[
-        "lost"
-    ],
+    "tens": {
+        "present": "lose",
+        "past": "lost",
+        "pastParticipale": ""
+    },
     "russian":"терять",
     "level":"1",
     "letter":"K, L, M"
 }, {
-    "verb":"make",
-    "past":[
-        "made"
-    ],
+    "tens": {
+        "present": "make",
+        "past": "made",
+        "pastParticipale": ""
+    },
     "russian":"создавать",
     "level":"1",
     "letter":"K, L, M"
 }, {
-    "verb":"mean",
-    "past":[
-        "meant"
-    ],
+    "tens": {
+        "present": "mean",
+        "past": "meant",
+        "pastParticipale": ""
+    },
     "russian":"означать",
     "level":"2",
     "letter":"K, L, M"
 }, {
-    "verb":"meet",
-    "past":[
-        "met"
-    ],
+    "tens": {
+        "present": "meet",
+        "past": "met",
+        "pastParticipale": ""
+    },
     "russian":"встречать",
     "level":"1",
     "letter":"K, L, M"
 }, {
-    "verb":"pay",
-    "past":[
-        "paid"
-    ],
+    "tens": {
+        "present": "pay",
+        "past": "paid",
+        "pastParticipale": ""
+    },
     "russian":"платить",
     "level":"2",
     "letter":"P, R"
 }, {
-    "verb":"put",
-    "past":[
-        "put"
-    ],
+    "tens": {
+        "present": "put",
+        "past": "put",
+        "pastParticipale": ""
+    },
     "russian":"класть/ставить",
     "level":"1",
     "letter":"P, R"
 }, {
-    "verb":"read",
-    "past":[
-        "read"
-    ],
+    "tens": {
+        "present": "read",
+        "past": "read",
+        "pastParticipale": ""
+    },
     "russian":"читать",
     "level":"1",
     "letter":"P, R"
 }, {
-    "verb":"ride",
-    "past":[
-        "rode",
-    "ridden"
-    ],
+    "tens": {
+        "present": "ride",
+        "past": "rode",
+        "pastParticipale": "ridden"
+    },
     "russian":"ездить",
     "level":"2",
      "letter":"P, R"
 }, {
-    "verb":"ring",
-    "past":[
-        "rang",
-    "rung"
-    ],
+    "tens": {
+        "present": "ring",
+        "past": "rang",
+        "pastParticipale": "rung"
+    },
     "russian":"звонить",
     "level":"4",
      "letter":"H, L, R"
 }, {
-    "verb":"rise",
-    "past":[
-        "rose",
-    "risen"
-    ],
+    "tens": {
+        "present": "rise",
+        "past": "rose",
+        "pastParticipale": "risen"
+    },
     "russian":"подниматься",
     "level":"3",
      "letter":"L, R"
 }, {
-    "verb":"run",
-    "past":[
-        "ran",
-    "run"
-    ],
+    "tens": {
+        "present": "run",
+        "past": "ran",
+        "pastParticipale": "run"
+    },
     "russian":"бежать",
     "level":"1",
      "letter":"P, R"
 }, {
-    "verb":"say",
-    "past":[
-        "said"
-    ],
+    "tens": {
+        "present": "say",
+        "past": "said",
+        "pastParticipale": ""
+    },
     "russian":"говорить",
     "level":"1",
     "letter":"S"
 }, {
-    "verb":"see",
-    "past":[
-        "saw",
-    "seen"
-    ],
+    "tens": {
+        "present": "see",
+        "past": "saw",
+        "pastParticipale": "seen"
+    },
     "russian":"видеть",
     "level":"1",
      "letter":"S"
 }, {
-    "verb":"sell",
-    "past":[
-        "sold",
-    "sold"
-    ],
+    "tens": {
+        "present": "sell",
+        "past": "sold",
+        "pastParticipale": "sold"
+    },
     "russian":"продавать",
     "level":"2",
      "letter":"S"
 }, {
-    "verb":"send",
-    "past":[
-        "sent"
-    ],
+    "tens": {
+        "present": "send",
+        "past": "sent",
+        "pastParticipale": ""
+    },
     "russian":"отправлять",
     "level":"2",
     "letter":"S"
 }, {
-    "verb":"set",
-    "past":[
-        "set"
-    ],
+    "tens": {
+        "present": "set",
+        "past": "set",
+        "pastParticipale": ""
+    },
     "russian":"ставить",
     "level":"2",
     "letter":"S"
 }, {
-    "verb":"shake",
-    "past":[
-        "shook",
-    "shaken"
-    ],
+    "tens": {
+        "present": "shake",
+        "past": "shook",
+        "pastParticipale": "shaken"
+    },
     "russian":"трясти",
     "level":"3",
      "letter":"S"
 }, {
-    "verb":"shine",
-    "past":[
-        "shone"
-    ],
+    "tens": {
+        "present": "shine",
+        "past": "shone",
+        "pastParticipale": ""
+    },
     "russian":"блестеть",
     "level":"4",
     "letter":"S"
 }, {
-    "verb":"shoot",
-    "past":[
-        "shot"
-    ],
+    "tens": {
+        "present": "shoot",
+        "past": "shot",
+        "pastParticipale": ""
+    },
     "russian":"стрелять",
     "level":"4",
     "letter":"S"
 }, {
-    "verb":"show",
-    "past":[
-        "showed",
-    "shown"
-    ],
+    "tens": {
+        "present": "show",
+        "past": "showed",
+        "pastParticipale": "shown"
+    },
     "russian":"показывать",
     "level":"2",
      "letter":"S"
 }, {
-    "verb":"shut",
-    "past":[
-        "shut"
-    ],
+    "tens": {
+        "present": "shut",
+        "past": "shut",
+        "pastParticipale": ""
+    },
     "russian":"закрывать",
     "level":"3",
     "letter":"S"
 }, {
-    "verb":"sing",
-    "past":[
-        "sang",
-    "sung"
-    ],
+    "tens": {
+        "present": "sing",
+        "past": "sang",
+        "pastParticipale": "sung"
+    },
     "russian":"петь",
     "level":"1",
      "letter":"S"
 }, {
-    "verb":"sink",
-    "past":[
-        "sank",
-    "sunk"
-    ],
+    "tens": {
+        "present": "sink",
+        "past": "sank",
+        "pastParticipale": "sunk"
+    },
     "russian":"тонуть",
     "level":"3",
      "letter":"S"
 }, {
-    "verb":"sit",
-    "past":[
-        "sat"
-    ],
+    "tens": {
+        "present": "sit",
+        "past": "sat",
+        "pastParticipale": ""
+    },
     "russian":"сидеть",
     "level":"1",
     "letter":"S"
 }, {
-    "verb":"sleep",
-    "past":[
-        "slept"
-    ],
+    "tens": {
+        "present": "sleep",
+        "past": "slept",
+        "pastParticipale": ""
+    },
     "russian":"спать",
     "level":"1",
     "letter":"S"
 }, {
-    "verb":"speak",
-    "past":[
-        "spoke",
-    "spoken"
-    ],
+    "tens": {
+        "present": "speak",
+        "past": "spoke",
+        "pastParticipale": "spoken"
+    },
     "russian":"говорить",
     "level":"1",
      "letter":"S"
 }, {
-    "verb":"spend",
-    "past":[
-        "spent"
-    ],
+    "tens": {
+        "present": "spend",
+        "past": "spent",
+        "pastParticipale": ""
+    },
     "russian":"тратить",
     "level":"1",
     "letter":"S"
 }, {
-    "verb":"spill",
-    "past":[
-        "spilled",
-    "spilt"
-    ],
+    "tens": {
+        "present": "spill",
+        "past": "spilled",
+        "pastParticipale": "spilt"
+    },
     "russian":"проливать",
     "level":"3",
      "letter":"S"
 }, {
-    "verb":"spoil",
-    "past":[
-        "spoilt"
-    ],
+    "tens": {
+        "present": "spoil",
+        "past": "spoilt",
+        "pastParticipale": ""
+    },
     "russian":"портить",
     "level":"4",
     "letter":"S"
 }, {
-    "verb":"spread",
-    "past":[
-        "spread"
-    ],
+    "tens": {
+        "present": "spread",
+        "past": "spread",
+        "pastParticipale": ""
+    },
     "russian":"расправлять",
     "level":"4",
     "letter":"S"
 }, {
-    "verb":"stand",
-    "past":[
-        "stood"
-    ],
+    "tens": {
+        "present": "stand",
+        "past": "stood",
+        "pastParticipale": ""
+    },
     "russian":"стоять",
     "level":"2",
     "letter":"S"
 }, {
-    "verb":"steal",
-    "past":[
-        "stole",
-    "stolen"
-    ],
+    "tens": {
+        "present": "steal",
+        "past": "stole",
+        "pastParticipale": "stolen"
+    },
     "russian":"красть",
     "level":"3",
      "letter":"S"
 }, {
-    "verb":"stick",
-    "past":[
-        "stuck"
-    ],
+    "tens": {
+        "present": "stick",
+        "past": "stuck",
+        "pastParticipale": ""
+    },
     "russian":"прилипать",
     "level":"4",
     "letter":"S"
 }, {
-    "verb":"swim",
-    "past":[
-        "swam",
-    "swum"
-    ],
+    "tens": {
+        "present": "swim",
+        "past": "swam",
+        "pastParticipale": "swum"
+    },
     "russian":"плавать",
     "level":"1",
      "letter":"S"
 }, {
-    "verb":"take",
-    "past":[
-        "took",
-    "taken"
-    ],
+    "tens": {
+        "present": "take",
+        "past": "took",
+        "pastParticipale": "taken"
+    },
     "russian":"брать",
     "level":"2",
      "letter":"T, U, W"
 }, {
-    "verb":"teach",
-    "past":[
-        "taught"
-    ],
+    "tens": {
+        "present": "teach",
+        "past": "taught",
+        "pastParticipale": ""
+    },
     "russian":"преподавать",
     "level":"2",
     "letter":"T, U, W"
 }, {
-    "verb":"tell",
-    "past":[
-        "told"
-    ],
+    "tens": {
+        "present": "tell",
+        "past": "told",
+        "pastParticipale": ""
+    },
     "russian":"рассказывать",
     "level":1,
     "letter":"T"
 }, {
-    "verb":"think",
-    "past":[
-        "thought"
-    ],
+    "tens": {
+        "present": "think",
+        "past": "thought",
+        "pastParticipale": ""
+    },
     "russian":"думать",
     "level":"1",
     "letter":"T"
 }, {
-    "verb":"throw",
-    "past":[
-        "threw"
-    ],
+    "tens": {
+        "present": "throw",
+        "past": "threw",
+        "pastParticipale": ""
+    },
     "russian":"бросать",
     "level":"4",
     "letter":"T, U"
 }, {
-    "verb":"understand",
-    "past":[
-        "understood"
-    ],
+    "tens": {
+        "present": "understand",
+        "past": "understood",
+        "pastParticipale": ""
+    },
     "russian":"понимать",
     "level":"2",
     "letter":"T, U, W"
 }, {
-    "verb":"upset",
-    "past":[
-        "upset"
-    ],
+    "tens": {
+        "present": "upset",
+        "past": "upset",
+        "pastParticipale": ""
+    },
     "russian":"расстраивать",
     "level":"4",
     "letter":"T, U"
 }, {
-    "verb":"wake",
-    "past":[
-        "woke",
-    "woken"
-    ],
+    "tens": {
+        "present": "wake",
+        "past": "woke",
+        "pastParticipale": "woken"
+    },
     "russian":"просыпаться",
     "level":"3",
      "letter":"W"
 }, {
-    "verb":"wear",
-    "past":[
-        "wore",
-    "worn"
-    ],
+    "tens": {
+        "present": "wear",
+        "past": "wore",
+        "pastParticipale": "worn"
+    },
     "russian":"носить",
     "level":"3",
      "letter":"W"
 }, {
-    "verb":"win",
-    "past":[
-        "won"
-    ],
+    "tens": {
+        "present": "win",
+        "past": "won",
+        "pastParticipale": ""
+    },
     "russian":"выигрывать",
     "level":"3",
     "letter":"W"
 }, {
-    "verb":"write",
-    "past":[
-        "wrote",
-    "written"
-    ],
+    "tens": {
+        "present": "write",
+        "past": "wrote",
+        "pastParticipale": "written"
+    },
     "russian":"писать",
     "level":"2",
     "letter":"T, U, W"
