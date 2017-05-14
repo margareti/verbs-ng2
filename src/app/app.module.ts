@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AppComponent } from './app.component';
+import { MainComponent } from './components/main/main.component';
 import { ChallengeComponent } from './components/challenge/challenge.component';
 import { ResultComponent } from './components/result/result.component';
 import { OptionsComponent } from './components/options/options.component';
@@ -13,17 +13,17 @@ import { StatsComponent } from './components/stats/stats.component';
 import { GamesComponent } from './components/games/games.component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: 'challenge', pathMatch: 'full' },
-  { path: 'challenge', component: ChallengeComponent },
-  { path: 'result', component: ResultComponent},
-  { path: 'options', component: OptionsComponent},
-  { path: 'dashboard', component: DashboardComponent}
+    { path: '', redirectTo: 'challenge', pathMatch: 'full' },
+    { path: 'challenge', component: ChallengeComponent },
+    { path: 'result', component: ResultComponent},
+    { path: 'options', component: OptionsComponent},
+    { path: 'dashboard', component: DashboardComponent}
 ];
 
 
 @NgModule({
   declarations: [
-    AppComponent,
+    MainComponent,
     ChallengeComponent,
     ResultComponent,
     OptionsComponent,
@@ -38,6 +38,6 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [MainComponent]
 })
 export class AppModule { }
