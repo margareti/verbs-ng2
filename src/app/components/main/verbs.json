@@ -2,7 +2,7 @@
     "tense": {
         "present": "be",
         "past": "was/were",
-        "pastParticipale": "been"
+        "pastParticiple": "been"
     },
     "russian":"быть",
     "level":"1",
@@ -11,7 +11,7 @@
     "tense": {
         "present": "become",
         "past": "became",
-        "pastParticipale": "become"
+        "pastParticiple": "become"
     },
     "russian":"cтановиться",
     "level":"2",
@@ -20,7 +20,7 @@
     "tense": {
         "present": "begin",
         "past": "began",
-        "pastParticipale": "begun"
+        "pastParticiple": "begun"
     },
     "russian":"начинать",
     "level":"1",
@@ -29,7 +29,7 @@
     "tense": {
         "present": "bet",
         "past": "bet",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"делать ставки",
     "level":"4",
@@ -38,7 +38,7 @@
     "tense": {
         "present": "bite",
         "past": "bit",
-        "pastParticipale": "bitten"
+        "pastParticiple": "bitten"
     },
     "russian":"кусаться",
     "level":"3",
@@ -47,7 +47,7 @@
     "tense": {
         "present": "bleed",
         "past": "bled",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"кровоточить",
     "level":"4",
@@ -56,7 +56,7 @@
     "tense": {
         "present": "blow",
         "past": "blew",
-        "pastParticipale": "blown"
+        "pastParticiple": "blown"
     },
     "russian":"дуть",
     "level":"4",
@@ -65,7 +65,7 @@
     "tense": {
         "present": "break",
         "past": "broke",
-        "pastParticipale": "broken"
+        "pastParticiple": "broken"
     },
     "russian":"ломать",
     "level":"1",
@@ -74,7 +74,7 @@
     "tense": {
         "present": "bring",
         "past": "brought",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"приносить",
     "level":"1",
@@ -83,7 +83,7 @@
     "tense": {
         "present": "build",
         "past": "built",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"строить",
     "level":"3",
@@ -92,7 +92,7 @@
     "tense": {
         "present": "burn",
         "past": "burnt",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"жечь",
     "level":"4",
@@ -101,7 +101,7 @@
     "tense": {
         "present": "buy",
         "past": "bought",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"покупать",
     "level":"1",
@@ -110,7 +110,7 @@
     "tense": {
         "present": "can",
         "past": "could",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"быть способным",
     "level":"1",
@@ -119,7 +119,7 @@
     "tense": {
         "present": "catch",
         "past": "caught",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"ловить",
     "level":"3",
@@ -128,7 +128,7 @@
     "tense": {
         "present": "choose",
         "past": "chose",
-        "pastParticipale": "chosen"
+        "pastParticiple": "chosen"
     },
     "russian":"выбирать",
     "level":"1",
@@ -137,7 +137,7 @@
     "tense": {
         "present": "come",
         "past": "came",
-        "pastParticipale": "come"
+        "pastParticiple": "come"
     },
     "russian":"приходить",
     "level":"1",
@@ -146,7 +146,7 @@
     "tense": {
         "present": "cost",
         "past": "cost",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"стоить",
     "level":"2",
@@ -155,7 +155,7 @@
     "tense": {
         "present": "cut",
         "past": "cut",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"ломать",
     "level":"4",
@@ -164,7 +164,7 @@
     "tense": {
         "present": "deal",
         "past": "dealt",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"справляться с чем-то",
     "level":"4",
@@ -173,7 +173,7 @@
     "tense": {
         "present": "do",
         "past": "did",
-        "pastParticipale": "done"
+        "pastParticiple": "done"
     },
     "russian":"делать",
     "level":"1",
@@ -182,7 +182,7 @@
     "tense": {
         "present": "draw",
         "past": "drew",
-        "pastParticipale": "drawn"
+        "pastParticiple": "drawn"
     },
     "russian":"рисовать",
     "level":"4",
@@ -191,7 +191,7 @@
     "tense": {
         "present": "dream",
         "past": "dreamt",
-        "pastParticipale": "dreamt"
+        "pastParticiple": "dreamt"
     },
     "russian":"мечтать",
     "level":"4",
@@ -200,7 +200,7 @@
     "tense": {
         "present": "drink",
         "past": "drank",
-        "pastParticipale": "drunk"
+        "pastParticiple": "drunk"
     },
     "russian":"пить",
     "level":"1",
@@ -209,7 +209,7 @@
     "tense": {
         "present": "drive",
         "past": "drove",
-        "pastParticipale": "driven"
+        "pastParticiple": "driven"
     },
     "russian":"водить машину",
     "level":"2",
@@ -218,7 +218,7 @@
     "tense": {
         "present": "eat",
         "past": "ate",
-        "pastParticipale": "eaten"
+        "pastParticiple": "eaten"
     },
     "russian":"есть",
     "level":"1",
@@ -227,7 +227,7 @@
     "tense": {
         "present": "fall",
         "past": "fell",
-        "pastParticipale": "fallen"
+        "pastParticiple": "fallen"
     },
     "russian":"падать",
     "level":"1",
@@ -236,7 +236,7 @@
     "tense": {
         "present": "feel",
         "past": "felt",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"чувствовать",
     "level":"2",
@@ -245,7 +245,7 @@
     "tense": {
         "present": "fight",
         "past": "fought",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"бороться",
     "level":"3",
@@ -254,7 +254,7 @@
     "tense": {
         "present": "find",
         "past": "found",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"находить",
     "level":"1",
@@ -263,7 +263,7 @@
     "tense": {
         "present": "fly",
         "past": "flew",
-        "pastParticipale": "flown"
+        "pastParticiple": "flown"
     },
     "russian":"летать",
     "level":"3",
@@ -272,7 +272,7 @@
     "tense": {
         "present": "forget",
         "past": "forgot",
-        "pastParticipale": "forgotten"
+        "pastParticiple": "forgotten"
     },
     "russian":"забывать",
     "level":"2",
@@ -281,7 +281,7 @@
     "tense": {
         "present": "forgive",
         "past": "forgave",
-        "pastParticipale": "forgiven"
+        "pastParticiple": "forgiven"
     },
     "russian":"прощать",
     "level":"2",
@@ -290,7 +290,7 @@
     "tense": {
         "present": "freeze",
         "past": "froze",
-        "pastParticipale": "frozen"
+        "pastParticiple": "frozen"
     },
     "russian":"замерзать",
     "level":"3",
@@ -299,7 +299,7 @@
     "tense": {
         "present": "get",
         "past": "got",
-        "pastParticipale": "gotten"
+        "pastParticiple": "gotten"
     },
     "russian":"получать",
     "level":"1",
@@ -308,7 +308,7 @@
     "tense": {
         "present": "give",
         "past": "gave",
-        "pastParticipale": "given"
+        "pastParticiple": "given"
     },
     "russian":"давать",
     "level":"1",
@@ -317,7 +317,7 @@
     "tense": {
         "present": "go",
         "past": "went",
-        "pastParticipale": "gone"
+        "pastParticiple": "gone"
     },
     "russian":"идти/ехать",
     "level":"1",
@@ -326,7 +326,7 @@
     "tense": {
         "present": "grow",
         "past": "grew",
-        "pastParticipale": "grown"
+        "pastParticiple": "grown"
     },
     "russian":"расти",
     "level":"2",
@@ -335,7 +335,7 @@
     "tense": {
         "present": "hang",
         "past": "hung",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"висеть",
     "level":"3",
@@ -344,7 +344,7 @@
     "tense": {
         "present": "have",
         "past": "had",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"иметь",
     "level":"1",
@@ -353,7 +353,7 @@
     "tense": {
         "present": "hear",
         "past": "heard",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"слышать",
     "level":"1",
@@ -362,7 +362,7 @@
     "tense": {
         "present": "hide",
         "past": "hid",
-        "pastParticipale": "hidden"
+        "pastParticiple": "hidden"
     },
     "russian":"прятать",
     "level":"3",
@@ -371,7 +371,7 @@
     "tense": {
         "present": "hit",
         "past": "hit",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"ударять",
     "level":"3",
@@ -380,7 +380,7 @@
     "tense": {
         "present": "hold",
         "past": "held",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"держать",
     "level":"4",
@@ -389,7 +389,7 @@
     "tense": {
         "present": "hurt",
         "past": "hurt",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"обижать",
     "level":"3",
@@ -398,7 +398,7 @@
     "tense": {
         "present": "keep",
         "past": "kept",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"хранить",
     "level":"2",
@@ -407,7 +407,7 @@
     "tense": {
         "present": "know",
         "past": "knew",
-        "pastParticipale": "known"
+        "pastParticiple": "known"
     },
     "russian":"знать",
     "level":"1",
@@ -416,7 +416,7 @@
     "tense": {
         "present": "lay",
         "past": "laid",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"лежать",
     "level":"4",
@@ -425,7 +425,7 @@
     "tense": {
         "present": "lead",
         "past": "led",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"вести за собой",
     "level":"3",
@@ -434,7 +434,7 @@
     "tense": {
         "present": "leave",
         "past": "left",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"оставлять/покидать",
     "level":"2",
@@ -443,7 +443,7 @@
     "tense": {
         "present": "lend",
         "past": "lent",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"давать взаймы",
     "level":"4",
@@ -452,7 +452,7 @@
     "tense": {
         "present": "let",
         "past": "let",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"разрешать",
     "level":"2",
@@ -461,7 +461,7 @@
     "tense": {
         "present": "light",
         "past": "lit",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"зажигать",
     "level":"4",
@@ -470,7 +470,7 @@
     "tense": {
         "present": "lose",
         "past": "lost",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"терять",
     "level":"1",
@@ -479,7 +479,7 @@
     "tense": {
         "present": "make",
         "past": "made",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"создавать",
     "level":"1",
@@ -488,7 +488,7 @@
     "tense": {
         "present": "mean",
         "past": "meant",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"означать",
     "level":"2",
@@ -497,7 +497,7 @@
     "tense": {
         "present": "meet",
         "past": "met",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"встречать",
     "level":"1",
@@ -506,7 +506,7 @@
     "tense": {
         "present": "pay",
         "past": "paid",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"платить",
     "level":"2",
@@ -515,7 +515,7 @@
     "tense": {
         "present": "put",
         "past": "put",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"класть/ставить",
     "level":"1",
@@ -524,7 +524,7 @@
     "tense": {
         "present": "read",
         "past": "read",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"читать",
     "level":"1",
@@ -533,7 +533,7 @@
     "tense": {
         "present": "ride",
         "past": "rode",
-        "pastParticipale": "ridden"
+        "pastParticiple": "ridden"
     },
     "russian":"ездить",
     "level":"2",
@@ -542,7 +542,7 @@
     "tense": {
         "present": "ring",
         "past": "rang",
-        "pastParticipale": "rung"
+        "pastParticiple": "rung"
     },
     "russian":"звонить",
     "level":"4",
@@ -551,7 +551,7 @@
     "tense": {
         "present": "rise",
         "past": "rose",
-        "pastParticipale": "risen"
+        "pastParticiple": "risen"
     },
     "russian":"подниматься",
     "level":"3",
@@ -560,7 +560,7 @@
     "tense": {
         "present": "run",
         "past": "ran",
-        "pastParticipale": "run"
+        "pastParticiple": "run"
     },
     "russian":"бежать",
     "level":"1",
@@ -569,7 +569,7 @@
     "tense": {
         "present": "say",
         "past": "said",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"говорить",
     "level":"1",
@@ -578,7 +578,7 @@
     "tense": {
         "present": "see",
         "past": "saw",
-        "pastParticipale": "seen"
+        "pastParticiple": "seen"
     },
     "russian":"видеть",
     "level":"1",
@@ -587,7 +587,7 @@
     "tense": {
         "present": "sell",
         "past": "sold",
-        "pastParticipale": "sold"
+        "pastParticiple": "sold"
     },
     "russian":"продавать",
     "level":"2",
@@ -596,7 +596,7 @@
     "tense": {
         "present": "send",
         "past": "sent",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"отправлять",
     "level":"2",
@@ -605,7 +605,7 @@
     "tense": {
         "present": "set",
         "past": "set",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"ставить",
     "level":"2",
@@ -614,7 +614,7 @@
     "tense": {
         "present": "shake",
         "past": "shook",
-        "pastParticipale": "shaken"
+        "pastParticiple": "shaken"
     },
     "russian":"трясти",
     "level":"3",
@@ -623,7 +623,7 @@
     "tense": {
         "present": "shine",
         "past": "shone",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"блестеть",
     "level":"4",
@@ -632,7 +632,7 @@
     "tense": {
         "present": "shoot",
         "past": "shot",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"стрелять",
     "level":"4",
@@ -641,7 +641,7 @@
     "tense": {
         "present": "show",
         "past": "showed",
-        "pastParticipale": "shown"
+        "pastParticiple": "shown"
     },
     "russian":"показывать",
     "level":"2",
@@ -650,7 +650,7 @@
     "tense": {
         "present": "shut",
         "past": "shut",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"закрывать",
     "level":"3",
@@ -659,7 +659,7 @@
     "tense": {
         "present": "sing",
         "past": "sang",
-        "pastParticipale": "sung"
+        "pastParticiple": "sung"
     },
     "russian":"петь",
     "level":"1",
@@ -668,7 +668,7 @@
     "tense": {
         "present": "sink",
         "past": "sank",
-        "pastParticipale": "sunk"
+        "pastParticiple": "sunk"
     },
     "russian":"тонуть",
     "level":"3",
@@ -677,7 +677,7 @@
     "tense": {
         "present": "sit",
         "past": "sat",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"сидеть",
     "level":"1",
@@ -686,7 +686,7 @@
     "tense": {
         "present": "sleep",
         "past": "slept",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"спать",
     "level":"1",
@@ -695,7 +695,7 @@
     "tense": {
         "present": "speak",
         "past": "spoke",
-        "pastParticipale": "spoken"
+        "pastParticiple": "spoken"
     },
     "russian":"говорить",
     "level":"1",
@@ -704,7 +704,7 @@
     "tense": {
         "present": "spend",
         "past": "spent",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"тратить",
     "level":"1",
@@ -713,7 +713,7 @@
     "tense": {
         "present": "spill",
         "past": "spilled",
-        "pastParticipale": "spilt"
+        "pastParticiple": "spilt"
     },
     "russian":"проливать",
     "level":"3",
@@ -722,7 +722,7 @@
     "tense": {
         "present": "spoil",
         "past": "spoilt",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"портить",
     "level":"4",
@@ -731,7 +731,7 @@
     "tense": {
         "present": "spread",
         "past": "spread",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"расправлять",
     "level":"4",
@@ -740,7 +740,7 @@
     "tense": {
         "present": "stand",
         "past": "stood",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"стоять",
     "level":"2",
@@ -749,7 +749,7 @@
     "tense": {
         "present": "steal",
         "past": "stole",
-        "pastParticipale": "stolen"
+        "pastParticiple": "stolen"
     },
     "russian":"красть",
     "level":"3",
@@ -758,7 +758,7 @@
     "tense": {
         "present": "stick",
         "past": "stuck",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"прилипать",
     "level":"4",
@@ -767,7 +767,7 @@
     "tense": {
         "present": "swim",
         "past": "swam",
-        "pastParticipale": "swum"
+        "pastParticiple": "swum"
     },
     "russian":"плавать",
     "level":"1",
@@ -776,7 +776,7 @@
     "tense": {
         "present": "take",
         "past": "took",
-        "pastParticipale": "taken"
+        "pastParticiple": "taken"
     },
     "russian":"брать",
     "level":"2",
@@ -785,7 +785,7 @@
     "tense": {
         "present": "teach",
         "past": "taught",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"преподавать",
     "level":"2",
@@ -794,7 +794,7 @@
     "tense": {
         "present": "tell",
         "past": "told",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"рассказывать",
     "level":1,
@@ -803,7 +803,7 @@
     "tense": {
         "present": "think",
         "past": "thought",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"думать",
     "level":"1",
@@ -812,7 +812,7 @@
     "tense": {
         "present": "throw",
         "past": "threw",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"бросать",
     "level":"4",
@@ -821,7 +821,7 @@
     "tense": {
         "present": "understand",
         "past": "understood",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"понимать",
     "level":"2",
@@ -830,7 +830,7 @@
     "tense": {
         "present": "upset",
         "past": "upset",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"расстраивать",
     "level":"4",
@@ -839,7 +839,7 @@
     "tense": {
         "present": "wake",
         "past": "woke",
-        "pastParticipale": "woken"
+        "pastParticiple": "woken"
     },
     "russian":"просыпаться",
     "level":"3",
@@ -848,7 +848,7 @@
     "tense": {
         "present": "wear",
         "past": "wore",
-        "pastParticipale": "worn"
+        "pastParticiple": "worn"
     },
     "russian":"носить",
     "level":"3",
@@ -857,7 +857,7 @@
     "tense": {
         "present": "win",
         "past": "won",
-        "pastParticipale": ""
+        "pastParticiple": ""
     },
     "russian":"выигрывать",
     "level":"3",
@@ -866,7 +866,7 @@
     "tense": {
         "present": "write",
         "past": "wrote",
-        "pastParticipale": "written"
+        "pastParticiple": "written"
     },
     "russian":"писать",
     "level":"2",
