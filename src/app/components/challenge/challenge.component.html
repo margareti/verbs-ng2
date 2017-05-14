@@ -6,8 +6,14 @@
   <li>{{verb.verb}}</li>
 </ul> -->
 <p>{{verbs[currentIndex].tense.present}}</p>
-<p replace="replaceIndex === 0">{{verbs[currentIndex].tense.past}}</p>
-<p replace="replaceIndex === 1">{{verbs[currentIndex].tense.pastParticiple ? verbs[currentIndex].tense.pastParticiple : verbs[currentIndex].tense.past}}</p>
+<p>
+  <span *ngIf="replaceIndex !== 0">{{verbs[currentIndex].tense.past}}</span>
+  <span *ngIf="replaceIndex === 0"><input></span>
+</p>
+<p>
+  <span *ngIf="replaceIndex !== 1">{{verbs[currentIndex].tense.pastParticiple ? verbs[currentIndex].tense.pastParticiple : verbs[currentIndex].tense.past}}</span>
+  <span *ngIf="replaceIndex === 1"><input></span>
+</p>
 
 <button (click)="next()" *ngIf="currentIndex < limit - 1">Next</button>
 <button routerLink="/result" *ngIf="currentIndex === limit - 1">Results</button>
