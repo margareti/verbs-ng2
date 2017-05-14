@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import verbs from './verbs.json';
+import Verbs from './services/verbs';
 
 @Component({
     selector: 'app-root',
@@ -11,8 +12,16 @@ export class AppComponent {
     title = 'app works!';
 
     constructor() {
-        if (!localStorage.getItem('verbs')) {
-            localStorage.setItem('verbs', verbs);
+
+        if (!Verbs.get()) {
+            Verbs.set(verbs);
         }
+        console.log('verbs:', Verbs.get());
+
+        // if (!localStorage.getItem('verbsData')) {
+        //     console.log('INSERT DATA');
+        //     localStorage.setItem('verbsData', JSON.stringify(verbsData));
+        // }
+        // console.log('verbsData:', JSON.parse(localStorage.getItem('verbsData')));
     }
 }
