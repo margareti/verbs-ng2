@@ -1,5 +1,12 @@
 <h2>{{title}}</h2>
 
-<ul *ngFor='let verb of verbsList'>
+<!-- <ul *ngFor='let verb of verbs[currentIndex]'>
   <li>{{verb.verb}}</li>
-</ul>
+  <li>{{verb.verb}}</li>
+  <li>{{verb.verb}}</li>
+</ul> -->
+<p>{{verbs[currentIndex].tens.present}}</p>
+<p>{{verbs[currentIndex].tens.past}}</p>
+<p>{{verbs[currentIndex].tens.pastParticipale}}</p>
+
+<button (click)="next()">Next</button>

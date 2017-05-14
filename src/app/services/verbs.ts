@@ -8,8 +8,8 @@ class Verbs {
         this.verbs = JSON.parse(localStorage.getItem('verbs'));
     }
 
-    getRandomEl(arr) {
-      return Math.floor(Math.random() * arr.length);
+    getRandomIndex(max) {
+      return Math.floor(Math.random() * max);
     }
 
     public get = ():[Verb] => {
@@ -28,7 +28,7 @@ class Verbs {
     public getList = (limit) => {
       var list = [];
       for (var i = 0; i < limit; i++) {
-        list.push(this.verbs[this.getRandomEl(this.verbs)]);
+        list.push(this.verbs[this.getRandomIndex(this.verbs.length)]);
       }
       return list;
     }
