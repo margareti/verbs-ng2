@@ -8,6 +8,10 @@ class Verbs {
         this.verbs = JSON.parse(localStorage.getItem('verbs'));
     }
 
+    getRandomIndex(max) {
+      return Math.floor(Math.random() * max);
+    }
+
     public get = ():[Verb] => {
         return this.verbs;
     }
@@ -19,6 +23,14 @@ class Verbs {
 
     public save = () => {
         return localStorage.setItem('verbs', JSON.stringify(this.verbs));
+    }
+
+    public getList = (limit) => {
+      var list = [];
+      for (var i = 0; i < limit; i++) {
+        list.push(this.verbs[this.getRandomIndex(this.verbs.length)]);
+      }
+      return list;
     }
 
 }

@@ -1,13 +1,45 @@
 import { Component } from '@angular/core';
-// import './verbs.json';
-// var verbs = require('./verbs.json');
+
+import Games from '../../services/games';
+import Verbs from '../../services/verbs';
+import { Game } from '../../interfaces/game';
+
 @Component({
-  // selector: 'verb',
   templateUrl: './challenge.component.html',
-  // styleUrls: ['./app.component.css']
 })
+
 export class ChallengeComponent {
   title = 'This is the verb view :)!';
-  // console.log(verbs);
+  verbs = [];
+  limit = 10;
+  genReplaceIndex() {
+    return Math.floor(Math.random() * 100) % 2;
+  }
+  replaceIndex = this.genReplaceIndex();
+
+
+  game;
+  currentIndex;
+
+
+
+  next() {
+    ++ this.currentIndex;
+    this.replaceIndex = this.genReplaceIndex();
+  }
+
+  constructor () {
+    console.log("replace index", this.replaceIndex)
+    let currentGame = Games.getCurrentGame();
+    console.log('current game', currentGame)
+    if (!currentGame) {
+      this.verbs = Verbs.getList(this.limit);
+      console.log(this.verbs);
+      this.currentIndex = 0;
+
+    }
+
+
+  }
 
 }

@@ -16,6 +16,5 @@ export class MainComponent {
         if (!Verbs.get()) {
             Verbs.set(verbs);
         }
-        console.log('verbs:', Verbs.get());
     }
 }
