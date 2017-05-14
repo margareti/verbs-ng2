@@ -9,10 +9,10 @@ import Games from '../../services/games';
 })
 export class ResultComponent {
   title = 'Result component!';
+  lastGame;
 
   constructor() {
-    let lastGame = Games.getLastGameFromHistory();
-    console.log(lastGame)
+    this.lastGame = Games.getLastGameFromHistory();
   }
 
 }
