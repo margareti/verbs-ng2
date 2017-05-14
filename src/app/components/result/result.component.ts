@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import Games from '../../services/games';
 // import './verbs.json';
 // var verbs = require('./verbs.json');
 @Component({
@@ -8,6 +9,10 @@ import { Component } from '@angular/core';
 })
 export class ResultComponent {
   title = 'Result component!';
+  lastGame;
 
-  
+  constructor() {
+    this.lastGame = Games.getLastGameFromHistory();
+  }
+
 }

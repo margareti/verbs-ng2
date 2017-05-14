@@ -38,6 +38,11 @@ class Games {
       localStorage.setItem('gameHistory', JSON.stringify(history));
     }
 
+    public getLastGameFromHistory = () => {
+      var history = this.getHistory();
+      return history[history.length - 1];
+    }
+
 
 }
 
