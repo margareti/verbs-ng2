@@ -5,20 +5,31 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home.component';
+import { ChallengeComponent } from './components/challenge/challenge.component';
+import { ResultComponent } from './components/result/result.component';
+import { OptionsComponent } from './components/options/options.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { StatsComponent } from './components/stats/stats.component';
+import { GamesComponent } from './components/games/games.component';
 
 const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
-  // { path: 'hero/:id',      component: HeroDetailComponent },
-
-  // { path: '', component: AppComponent }
+  { path: '', redirectTo: 'challenge', pathMatch: 'full' },
+  { path: 'challenge', component: ChallengeComponent },
+  { path: 'result', component: ResultComponent},
+  { path: 'options', component: OptionsComponent},
+  { path: 'dashboard', component: DashboardComponent}
 ];
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    ChallengeComponent,
+    ResultComponent,
+    OptionsComponent,
+    DashboardComponent,
+    StatsComponent,
+    GamesComponent
   ],
   imports: [
     BrowserModule,
