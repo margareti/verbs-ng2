@@ -12,7 +12,7 @@ export class ResultComponent {
   lastGame;
 
   constructor() {
-    this.lastGame = Games.getLastGameFromHistory();
+    this.lastGame = Games.getLastGameFromHistory() ? Games.getLastGameFromHistory() : {score: 'NO games yet 0', verbs: []};
   }
 
 }
