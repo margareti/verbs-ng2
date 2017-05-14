@@ -1,8 +1,11 @@
 export interface Verb {
-    id?: string;
     letter?: string;
     level?: string;
-    past?: Array<object>;
     russian?: string;
-    verb: string;
+    disabled?: boolean;
+    tense?: {
+        present?: string;
+        past?: string;
+        pastParticiple?: string;
+    };
 }

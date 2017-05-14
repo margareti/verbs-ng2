@@ -14,7 +14,11 @@ class Verbs {
 
     public set = (verbs:[Verb]):void => {
         this.verbs = verbs;
-        return localStorage.setItem('verbs', JSON.stringify(verbs));
+        return this.save();
+    }
+
+    public save = () => {
+        return localStorage.setItem('verbs', JSON.stringify(this.verbs));
     }
 
 }

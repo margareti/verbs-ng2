@@ -1,5 +1,6 @@
 <h2>OPTIONS</h2>
 
 <div *ngFor="let verb of verbs">
-    <input type="checkbox" checked="true"><span>{{verb.tense.present}}</span>
+    <input type="checkbox" [checked]="verb.disabled" (change)="toggleVerb(verb)">
+    <span>{{verb.tense.present}}</span>
 </div>
