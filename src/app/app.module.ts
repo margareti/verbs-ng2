@@ -5,12 +5,12 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { ChallengeComponent } from './challenge.component';
-import { ResultComponent } from './result.component';
-import { OptionsComponent } from './options.component';
-import { DashboardComponent } from './dashboard.component';
-import { StatsComponent } from './stats.component';
-import { GamesComponent } from './games.component';
+import { ChallengeComponent } from './challenge/challenge.component';
+import { ResultComponent } from './result/result.component';
+import { OptionsComponent } from './options/options.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { StatsComponent } from './stats/stats.component';
+import { GamesComponent } from './games/games.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: 'challenge', pathMatch: 'full' },
