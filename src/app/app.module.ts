@@ -11,7 +11,6 @@ import { OptionsComponent } from './components/options/options.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { StatsComponent } from './components/stats/stats.component';
 import { GamesComponent } from './components/games/games.component';
-import { ReplaceDirective } from './components/challenge/replace.directive';
 
 
 const appRoutes: Routes = [
@@ -31,8 +30,7 @@ const appRoutes: Routes = [
     OptionsComponent,
     DashboardComponent,
     StatsComponent,
-    GamesComponent,
-    ReplaceDirective
+    GamesComponent
   ],
   imports: [
     BrowserModule,
