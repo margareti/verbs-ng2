@@ -45,6 +45,30 @@ class Verbs {
       return list;
     }
 
+    public getVerbIndex = (verb) => {
+      for (var i = 0; i < this.verbs.length; i++) {
+        if (this.verbs[i].tense.present === verb) {
+          return i;
+        }
+      }
+    }
+
+    public saveScore = (verb, result) => {
+      console.log("saving score!!!");
+      var verbIndex = this.getVerbIndex(verb);
+      var verbsList = JSON.parse(localStorage.getItem('verbs'));
+      if (!verbsList[verbIndex].hasOwnProperty('stats')) {
+        verbsList[verbIndex].stats = {
+          error: 0,
+          success: 0
+        };
+      }
+      verbsList[verbIndex].stats.error += result.error;
+      verbsList[verbIndex].stats.success += result.success;
+      console.log('ready verb ', verbsList[verbIndex]);
+      localStorage.setItem('verbs', JSON.stringify(verbsList));
+    }
+
 }
 
 const verbs = new Verbs();
