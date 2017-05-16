@@ -4,13 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
+
 import { MainComponent } from './components/main/main.component';
 import { ChallengeComponent } from './components/challenge/challenge.component';
 import { ResultComponent } from './components/result/result.component';
 import { OptionsComponent } from './components/options/options.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { StatsComponent } from './components/stats/stats.component';
-import { GamesComponent } from './components/games/games.component';
+import { HistoryComponent } from './components/history/history.component';
 
 
 const appRoutes: Routes = [
@@ -30,7 +31,7 @@ const appRoutes: Routes = [
     OptionsComponent,
     DashboardComponent,
     StatsComponent,
-    GamesComponent
+    HistoryComponent
   ],
   imports: [
     BrowserModule,
