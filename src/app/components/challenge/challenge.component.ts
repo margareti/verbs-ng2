@@ -23,6 +23,10 @@ export class ChallengeComponent {
   userInput;
 
   next() {
+    var result = {
+      error: 0,
+      success: 0
+    };
     if (this.game.currentIndex === this.limit - 1) {
       Games.saveCurrentGameToHistory(this.game);
       this.router.navigateByUrl('/result');
@@ -31,11 +35,14 @@ export class ChallengeComponent {
       this.hiddenTense = this.genReplaceIndex();
       if (this.valid) {
         ++this.game.score;
+        ++result.success;
         this.valid = false;
+      } else {
+        ++result.error;
       }
-      this.userInput = '';
-      console.log(this.game)
 
+      Verbs.saveScore(this.game.verbs[this.game.currentIndex].tense['present'], result);
+      this.userInput = '';
       Games.saveCurrentGame(this.game);
     }
 
