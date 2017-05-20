@@ -9,21 +9,20 @@ class Games {
     // }
 
     public getCurrentGame = () => {
-      return JSON.parse(localStorage.getItem('currentGame'));
+        return JSON.parse(localStorage.getItem('currentGame'));
     }
 
     public saveCurrentGame = (game) => {
-      localStorage.setItem('currentGame', JSON.stringify(game));
+        localStorage.setItem('currentGame', JSON.stringify(game));
     }
 
     public saveCurrentGameToHistory = (game) => {
-      let history = this.getHistory();
+        let history = this.getHistory();
 
-      delete game.currentIndex;
-      localStorage.removeItem('currentGame');
-      history.push(game);
-      this.saveHistory(history);
-
+        delete game.currentIndex;
+        localStorage.removeItem('currentGame');
+        history.push(game);
+        this.saveHistory(history);
     }
 
     public getCurrentGameResult = () => {
@@ -31,16 +30,16 @@ class Games {
     }
 
     public getHistory = () => {
-      return JSON.parse(localStorage.getItem('gameHistory')) || [];
+        return JSON.parse(localStorage.getItem('gameHistory')) || [];
     }
 
     public saveHistory = (history) => {
-      localStorage.setItem('gameHistory', JSON.stringify(history));
+        localStorage.setItem('gameHistory', JSON.stringify(history));
     }
 
     public getLastGameFromHistory = () => {
-      var history = this.getHistory();
-      return history[history.length - 1];
+        var history = this.getHistory();
+        return history[history.length - 1];
     }
 
 
