@@ -8,6 +8,10 @@ export interface Verb {
         past?: string;
         pastParticiple?: string;
     };
+    stats?: {
+        error?: number;
+        success?: number;
+    };
     challenge?: {
         tense?: string;
         response?: string;

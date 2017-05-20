@@ -8,7 +8,7 @@ import Games from '../../services/games';
   // styleUrls: ['./app.component.css']
 })
 export class ResultComponent {
-  title = 'Result component!';
+  title = 'RESULT';
   lastGame;
 
   constructor() {

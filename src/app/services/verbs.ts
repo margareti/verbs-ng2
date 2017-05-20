@@ -36,35 +36,32 @@ class Verbs {
     }
 
     public getList = (limit) => {
-      var list = [];
-      for (var i = 0; i < limit; i++) {
-        list.push(this.verbs[this.getRandomIndex(this.verbs.length)]);
-      }
-      return list;
-    }
+        var list = [];
 
-    public getVerbIndex = (verb) => {
-      for (var i = 0; i < this.verbs.length; i++) {
-        if (this.verbs[i].tense.present === verb) {
-          return i;
+        for (let i = 0; i < limit; i++) {
+            list.push(this.verbs[this.getRandomIndex(this.verbs.length)]);
         }
-      }
+
+        return list;
     }
 
-    public saveScore = (verb, result) => {
-      console.log("saving score!!!");
-      var verbIndex = this.getVerbIndex(verb);
-      var verbsList = JSON.parse(localStorage.getItem('verbs'));
-      if (!verbsList[verbIndex].hasOwnProperty('stats')) {
-        verbsList[verbIndex].stats = {
-          error: 0,
-          success: 0
-        };
-      }
-      verbsList[verbIndex].stats.error += result.error;
-      verbsList[verbIndex].stats.success += result.success;
-      console.log('ready verb ', verbsList[verbIndex]);
-      localStorage.setItem('verbs', JSON.stringify(verbsList));
+    public getVerb(verb:Verb):Verb {
+        let verbs = this.get();
+
+        return verbs.filter(v => {
+            if (verb.tense.present === v.tense.present) return v;
+        })[0];
+    }
+
+    public setVerbStats(verb:Verb, success:boolean):void {
+        verb = this.getVerb(verb);
+
+        if (!verb.hasOwnProperty('stats')) {
+            verb.stats = {error: 0, success: 0};
+        }
+
+        verb.stats[success ? 'success' : 'error']++;
+        this.save();
     }
 
 }

@@ -1,0 +1,5 @@
+<div>{{currentIndex + 1}}/{{verbs.length}}</div>
+<div *ngFor="let verb of verbs; let i = index">
+    <span *ngIf="currentIndex === i">--> </span>
+    <span>{{verb.tense.present}}</span>
+</div>
