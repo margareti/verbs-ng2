@@ -6,27 +6,25 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 import { MainComponent } from './components/main/main.component';
-import { ChallengeComponent } from './components/challenge/challenge.component';
+import { GameComponent } from './components/game/game.component';
 import { ResultComponent } from './components/result/result.component';
 import { OptionsComponent } from './components/options/options.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { StatsComponent } from './components/stats/stats.component';
 import { HistoryComponent } from './components/history/history.component';
 
-
 const appRoutes: Routes = [
-    { path: '', redirectTo: 'challenge', pathMatch: 'full' },
-    { path: 'challenge', component: ChallengeComponent },
+    { path: '', redirectTo: 'game', pathMatch: 'full' },
+    { path: 'game', component: GameComponent },
     { path: 'result', component: ResultComponent},
     { path: 'options', component: OptionsComponent},
     { path: 'dashboard', component: DashboardComponent}
 ];
 
-
 @NgModule({
   declarations: [
     MainComponent,
-    ChallengeComponent,
+    GameComponent,
     ResultComponent,
     OptionsComponent,
     DashboardComponent,
