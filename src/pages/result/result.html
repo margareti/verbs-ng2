@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{title}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <p>Your result is:</p>
+    <p>{{game.score}}/{{game.verbs.length}}</p>
+
+    <div *ngFor="let verb of game.verbs">
+        <div *ngFor="let tense of tenses">
+            <span>{{verb.tense[tense]}}</span>
+            <span *ngIf="tense === verb.challenge?.tense"> -- {{verb.challenge?.response}}</span>
+        </div>
+    </div>
+</ion-content>

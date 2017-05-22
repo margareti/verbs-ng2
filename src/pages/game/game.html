@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{title}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div *ngFor="let tense of tenses">
+        <div *ngIf="tense === selectedTense; then input; else verb"></div>
+        <ng-template #input>
+            <input type="text" [(ngModel)]="response" />
+        </ng-template>
+        <ng-template #verb>
+            <span>{{game.verbs[game.currentIndex].tense[tense]}}</span>
+        </ng-template>
+    </div>
+
+    <button (click)="next()">Next</button>
+
+    <verbs-list [verbs]="game.verbs" [currentIndex]="game.currentIndex"></verbs-list>
+</ion-content>
