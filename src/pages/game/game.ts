@@ -1,4 +1,4 @@
-import { Component/*, Input*/ } from '@angular/core';
+import { Component /*, Input*/ } from '@angular/core';
 // import { Router } from '@angular/router';
 
 import Games from '../../services/games';
@@ -19,6 +19,7 @@ export class GamePage {
     response:string = '';
     title:string = 'GAME';
     selectedTense:string = '';
+
 
     constructor(/*private router: Router*/) {
         let game:Game = Games.getCurrentGame();
