@@ -1,4 +1,4 @@
-import { Component/*, Input*/ } from '@angular/core';
+import { Component, ViewChild/*, Input*/ } from '@angular/core';
 // import { Router } from '@angular/router';
 
 import Games from '../../services/games';
@@ -6,10 +6,14 @@ import Verbs from '../../services/verbs';
 import { Game } from '../../interfaces/game';
 import { Verb } from '../../interfaces/verb';
 
+import { ResultPage } from '../result/result';
+// import { NavController } from 'ionic-angular';
+import { Nav, Platform } from 'ionic-angular';
+
 
 @Component({
     selector: 'page-game',
-    templateUrl: './game.html',
+    templateUrl: './game.html'
 })
 
 export class GamePage {
@@ -19,9 +23,12 @@ export class GamePage {
     response:string = '';
     title:string = 'GAME';
     selectedTense:string = '';
+    // navCtrl;
+    resultPage: ResultPage;
+    @ViewChild(Nav) nav: Nav;
 
 
-    constructor(/*private router: Router*/) {
+    constructor(/*private router: Router*/ ) {
         let game:Game = Games.getCurrentGame();
 
         if (!game) {
@@ -75,6 +82,8 @@ export class GamePage {
             Games.saveCurrentGameToHistory(this.game);
             console.info('>> navigate to RESULT route!');
             // this.router.navigateByUrl('/result');
+            // this.navCtrl.push(this.resultPage);
+            this.nav.setRoot(this.resultPage);
         }
     }
 
