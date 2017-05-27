@@ -17,17 +17,21 @@
 
 </ion-header>
 
-<div [ngSwitch]="selectedLevel" *ngFor="let level of levels">
-    <ion-list *ngSwitchCase="level.index">
-        <div *ngFor="let verb of verbs">
-            <ion-item *ngIf="level.index == verb.level">
-                <input
-                    type="checkbox"
-                    [(ngModel)]="verb.disabled"
-                    (change)="toggleVerb(verb)"
-                    [disabled]="!verb.disabled && getDisabledVerbsCount() >= verbs.length - 10">
-                <span>{{verb.tense.present}}</span>
-            </ion-item>
+<ion-content>
+    <div [ngSwitch]="selectedLevel">
+        <div *ngFor="let level of levels">
+            <ion-list *ngSwitchCase="level.index">
+                <div *ngFor="let verb of verbs">
+                    <ion-item *ngIf="level.index == verb.level">
+                        <input
+                            type="checkbox"
+                            [(ngModel)]="verb.disabled"
+                            (change)="toggleVerb(verb)"
+                            [disabled]="!verb.disabled && getDisabledVerbsCount() >= verbs.length - 10">
+                        <span>{{verb.tense.present}}</span>
+                    </ion-item>
+                </div>
+            </ion-list>
         </div>
-    </ion-list>
-</div>
+    </div>
+</ion-content>
