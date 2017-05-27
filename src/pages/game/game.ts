@@ -1,4 +1,4 @@
-import { Component/*, Input*/ } from '@angular/core';
+import { Component, ViewChildren, OnInit, AfterViewInit, Renderer, ElementRef/*, Input*/ } from '@angular/core';
 // import { Router } from '@angular/router';
 
 import Games from '../../services/games';
@@ -23,8 +23,12 @@ export class GamePage {
     title:string = 'GAME';
     selectedTense:string = '';
     resultPage: ResultPage;
+    renderer:Renderer;
 
-    constructor(/*private router: Router*/ ) {
+    @ViewChildren('game') inputs;
+
+
+    constructor(renderer: Renderer/*private router: Router*/ ) {
         let game:Game = Games.getCurrentGame();
 
         if (!game) {
@@ -37,8 +41,38 @@ export class GamePage {
             this.game = game;
         }
 
+        this.renderer = renderer;
         this.tenses = this.getTenses(this.game.verbs);
         this.selectedTense = this.getRandomTense();
+    }
+
+    ngOnInit () {
+      console.log('inputs ', this.inputs);
+    }
+
+    ngAfterViewInit() {
+      console.log("after view init ", this.inputs);
+      // this.inputs.toArray().find((e) => {
+      //   return e.nativeElement.getAttribute('name') == 'response';
+      // }).nativeElement.focus();
+      // this.inputs.toArray().each(e => {
+      //   e.nativeElement.focus();
+      // })
+      console.log('array ', this.inputs.toArray()[0].nativeElement)
+      // this.inputs.toArray()[0].nativeElement.focus();
+
+      // this.inputs.changes.subscribe(children => {
+      //   console.log('children ', children);
+      //   children.last.nativeElement.focus();
+      // });
+      var renderer = this.renderer;
+      var inputs = this.inputs;
+      setTimeout(function() {
+        console.log("timeout 5sec");
+        inputs.toArray()[0].nativeElement.focus();
+        // renderer.invokeElementMethod(inputs.toArray()[0].nativeElement, 'focus', []);
+      }, 5000);
+
     }
 
     private getTenses(verbs:Verb[]):string[] {

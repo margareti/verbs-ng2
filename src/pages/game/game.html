@@ -16,7 +16,7 @@
         <ion-col *ngFor="let tense of tenses" text-center no-padding>
             <div *ngIf="tense === selectedTense; then input; else verb"></div>
             <ng-template #input>
-                <input focus autocomplete="off" type="text" [(ngModel)]="response" name="response">
+                <input #game autocomplete="off" type="text" [(ngModel)]="response" name="response">
             </ng-template>
             <ng-template #verb>
                 <span>{{game.verbs[game.currentIndex].tense[tense] ? game.verbs[game.currentIndex].tense[tense] : game.verbs[game.currentIndex].tense.past}}</span>
