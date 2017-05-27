@@ -6,10 +6,13 @@ import Verbs from '../../services/verbs';
 import { Game } from '../../interfaces/game';
 import { Verb } from '../../interfaces/verb';
 
+import { ResultPage } from '../result/result';
+
+
 
 @Component({
     selector: 'page-game',
-    templateUrl: './game.html',
+    templateUrl: './game.html'
 })
 
 export class GamePage {
@@ -19,9 +22,9 @@ export class GamePage {
     response:string = '';
     title:string = 'GAME';
     selectedTense:string = '';
+    resultPage: ResultPage;
 
-
-    constructor(/*private router: Router*/) {
+    constructor(/*private router: Router*/ ) {
         let game:Game = Games.getCurrentGame();
 
         if (!game) {
