@@ -1,10 +1,9 @@
-import { Component, OnInit/*, Input*/ } from '@angular/core';
+import { Component/*, Input*/ } from '@angular/core';
 // import { Router } from '@angular/router';
 
 import Games from '../../services/games';
 import Verbs from '../../services/verbs';
 import { Game } from '../../interfaces/game';
-import { Verb } from '../../interfaces/verb';
 
 import { ResultPage } from '../result/result';
 
