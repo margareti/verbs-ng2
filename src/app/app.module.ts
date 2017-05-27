@@ -13,6 +13,7 @@ import { OptionsPage } from '../pages/options/options';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { HistoryComponent } from '../pages/dashboard/history';
 import { StatsComponent } from '../pages/dashboard/stats';
+import { ChallengeComponent } from '../pages/game/challenge';
 import { FocusDirective } from '../common/focus.directive';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -28,7 +29,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     StatsComponent,
     HistoryComponent,
     VerbsListComponent,
-    FocusDirective
+    FocusDirective,
+    ChallengeComponent
     // HomePage,
     // ListPage
   ],

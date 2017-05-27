@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Verb } from '../../interfaces/verb';
-// import { verbsListStyles } from './verbs-list.scss';
+import { Game } from '../../interfaces/game';
 
 @Component({
     selector: 'verbs-list',
@@ -11,6 +11,7 @@ export class VerbsListComponent implements OnInit {
 
     @Input() verbs:Verb[];
     @Input() currentIndex:number;
+    @Input() game:Game;
 
     constructor() { }
 

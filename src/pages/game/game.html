@@ -8,32 +8,10 @@
 </ion-header>
 
 <ion-content padding>
-  <form (ngSubmit)="next()">
-    <ion-card class="verbs-list__card  verbs-list__card--current">
-      <ion-card-header>
-        {{game.verbs[game.currentIndex].tense['present']}}
-      </ion-card-header>
-      <ion-card-content>
-
-        <div *ngFor="let tense of tenses; let i = index; let first = first;" >
-          <div *ngIf="!first">
-            <div *ngIf="tense === selectedTense; then input; else verb"></div>
-          </div>
-          <ng-template #input>
-              <input focus autocomplete="off" type="text" [(ngModel)]="response" name="response">
-          </ng-template>
-          <ng-template #verb>
-              <span>{{game.verbs[game.currentIndex].tense[tense] ? game.verbs[game.currentIndex].tense[tense] : game.verbs[game.currentIndex].tense.past}}</span>
-          </ng-template>
-        </div>
-        <div text-right><button type="submit">Next</button></div>
-
-
-      </ion-card-content>
-    </ion-card>
-
-  </form>
-  <verbs-list [verbs]="game.verbs" [currentIndex]="game.currentIndex"></verbs-list>
-
+  <verbs-list
+    [verbs]="game.verbs"
+    [currentIndex]="game.currentIndex"
+    [game]="game">
+  </verbs-list>
 
 </ion-content>

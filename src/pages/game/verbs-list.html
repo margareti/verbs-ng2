@@ -1,14 +1,18 @@
 <ng-container  *ngFor="let verb of verbs; let i = index">
-  <div *ngIf="currentIndex < i" class="verbs-list__wrap" >
-    <ion-card class="verbs-list__card">
-      <ion-card-header>
-        {{verb.tense.present}}
-      </ion-card-header>
-      <ion-card-content>
-        <p>0/3 correct</p>
-      </ion-card-content>
-    </ion-card>
-  </div>
+  <challenge *ngIf="currentIndex === i"
+    [verbs]="verbs"
+    [currentIndex]="currentIndex"
+    [game]="game">
+  </challenge>
+  <ion-card *ngIf="currentIndex < i" class="verbs-list__card">
+    <ion-card-header>
+      {{verb.tense.present}}
+    </ion-card-header>
+    <ion-card-content>
+      <p>0/3 correct</p>
+    </ion-card-content>
+  </ion-card>
+
 
 </ng-container>
 <div>{{currentIndex + 1}}/{{verbs.length}}</div>
