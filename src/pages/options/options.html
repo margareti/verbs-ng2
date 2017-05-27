@@ -1,19 +1,33 @@
 <ion-header>
-    <ion-navbar>
+
+    <ion-navbar no-border-bottom>
         <button ion-button menuToggle>
             <ion-icon name="menu"></ion-icon>
         </button>
         <ion-title>{{title}}</ion-title>
     </ion-navbar>
+
+    <ion-toolbar no-border-top>
+        <ion-segment [(ngModel)]="selectedLevel" padding>
+            <ion-segment-button *ngFor="let level of levels" value="{{level}}">
+                Level: {{level}}
+            </ion-segment-button>
+        </ion-segment>
+    </ion-toolbar>
+
 </ion-header>
 
-<ion-content padding>
-    <div *ngFor="let verb of verbs">
-        <input
-            type="checkbox"
-            [(ngModel)]="verb.disabled"
-            (change)="toggleVerb(verb)"
-            [disabled]="!verb.disabled && getDisabledVerbsCount() >= verbs.length - 10">
-        <span>{{verb.tense.present}}</span>
-    </div>
-</ion-content>
+<div [ngSwitch]="selectedLevel" *ngFor="let level of levels">
+    <ion-list *ngSwitchCase="level">
+        <div *ngFor="let verb of verbs">
+            <ion-item *ngIf="level == verb.level">
+                <input
+                    type="checkbox"
+                    [(ngModel)]="verb.disabled"
+                    (change)="toggleVerb(verb)"
+                    [disabled]="!verb.disabled && getDisabledVerbsCount() >= verbs.length - 10">
+                <span>{{verb.tense.present}}</span>
+            </ion-item>
+        </div>
+    </ion-list>
+</div>
