@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{title}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div *ngFor="let verb of verbs">
+        <input
+            type="checkbox"
+            [(ngModel)]="verb.disabled"
+            (change)="toggleVerb(verb)"
+            [disabled]="!verb.disabled && getDisabledVerbsCount() >= verbs.length - 10">
+        <span>{{verb.tense.present}}</span>
+    </div>
+</ion-content>

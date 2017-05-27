@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{title}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2 text-center text-uppercase>{{game.verbs[game.currentIndex].tense['present']}}</h2>
+  <ion-input #input type="text"></ion-input>
+  <form (ngSubmit)="next()">
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngFor="let tense of tenses" text-center no-padding>
+            <div *ngIf="tense === selectedTense; then input; else verb"></div>
+            <ng-template #input>
+                <input ng-focus="true" autocomplete="off" type="text" [(ngModel)]="response" name="response">
+            </ng-template>
+            <ng-template #verb>
+                <span>{{game.verbs[game.currentIndex].tense[tense] ? game.verbs[game.currentIndex].tense[tense] : game.verbs[game.currentIndex].tense.past}}</span>
+            </ng-template>
+        </ion-col>
+      </ion-row>
+      <ion-row justify-content-end margin-top>
+        <button type="submit">Next</button>
+      </ion-row>
+    </ion-grid>
+
+  </form>
+  <verbs-list [verbs]="game.verbs" [currentIndex]="game.currentIndex"></verbs-list>
+</ion-content>
