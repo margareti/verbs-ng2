@@ -9,8 +9,8 @@
 
     <ion-toolbar no-border-top>
         <ion-segment [(ngModel)]="selectedLevel" padding>
-            <ion-segment-button *ngFor="let level of levels" value="{{level}}">
-                Level: {{level}}
+            <ion-segment-button *ngFor="let level of levels" value="{{level.index}}">
+                {{level.label | uppercase}}
             </ion-segment-button>
         </ion-segment>
     </ion-toolbar>
@@ -18,9 +18,9 @@
 </ion-header>
 
 <div [ngSwitch]="selectedLevel" *ngFor="let level of levels">
-    <ion-list *ngSwitchCase="level">
+    <ion-list *ngSwitchCase="level.index">
         <div *ngFor="let verb of verbs">
-            <ion-item *ngIf="level == verb.level">
+            <ion-item *ngIf="level.index == verb.level">
                 <input
                     type="checkbox"
                     [(ngModel)]="verb.disabled"

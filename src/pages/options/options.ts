@@ -9,12 +9,18 @@ import Verbs from '../../services/verbs';
 
 export class OptionsPage implements OnInit {
     private verbs:[Verb];
-    private selectedLevel:number = 1;
+    private selectedLevel:string;
     private title:string = 'OPTIONS';
-    private levels:number[] = [1, 2, 3, 4];
+
+    private levels:any[] = [
+        {label: "easy", index: 1},
+        {label: "normal", index: 2},
+        {label: "difficult", index: 3},
+        {label: "hard", index: 4}
+    ];
 
     constructor() {
-        this.selectedLevel = this.levels[0];
+        this.selectedLevel = this.levels[0].index + '';
     }
 
     ngOnInit() {
