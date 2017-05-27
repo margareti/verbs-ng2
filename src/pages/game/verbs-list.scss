@@ -1,0 +1,19 @@
+.verbs-list {
+  &__card {
+    border-top: 2px solid cornflowerblue;
+    border-radius: 0 0 2px 2px;
+    &:first-child {
+        -webkit-animation: move 0.5s ease-in;
+        animation: move 0.5s ease-in;
+    }
+  }
+}
+@-webkit-keyframes move {
+    0% {margin-top: 70px;}
+   100% {margin-top: 10px;}
+}
+
+@keyframes move {
+    0% {margin-top: 70px;}
+   100% {margin-top: 10px;}
+}
