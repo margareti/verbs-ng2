@@ -42,7 +42,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GamePage,
     ResultPage,
     OptionsPage,
-    DashboardPage
+    DashboardPage,
+    StatsComponent,
+    HistoryComponent
     // HomePage,
     // ListPage
   ],

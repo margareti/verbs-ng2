@@ -1,4 +1,4 @@
-<ion-header>
+<!-- <ion-header>
     <ion-navbar>
         <button ion-button menuToggle>
             <ion-icon name="menu"></ion-icon>
@@ -10,4 +10,9 @@
 <ion-content padding>
     <stats></stats>
     <history></history>
-</ion-content>
+</ion-content> -->
+
+<ion-tabs class="tabs-basic">
+    <ion-tab tabIcon="stats" tabTitle="Stats" [root]="stats"></ion-tab>
+    <ion-tab tabIcon="trending-up" tabTitle="History" [root]="history"></ion-tab>
+</ion-tabs>
