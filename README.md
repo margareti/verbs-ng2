@@ -8,8 +8,10 @@ Play the game to test and perfect your knowledge of irregular English verbs.
 ### Installing
 
 
-```npm i
-ionic serve```
+```
+npm i
+ionic serve
+```
 
 
 
